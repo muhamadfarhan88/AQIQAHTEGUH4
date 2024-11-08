@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "inter": ['inter'], 
-        "circular": ['Circular std'] 
+        "inter": ['inter'] 
        },
       colors : {
       "orange" : {
