@@ -3,6 +3,10 @@ module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        "inter": ['inter'], 
+        "circular": ['Circular std'] 
+       },
       colors : {
       "orange" : {
         100: '#FFEDD5',
@@ -15,7 +19,7 @@ module.exports = {
         800: '#B45309',
         900: '#92400E',
         950: '#7A2A0D',
-      }
+      },
     },
   },
   plugins: [],
