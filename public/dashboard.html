@@ -9,18 +9,20 @@
     <!--google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--tailwind-->
     <link href="../public/css/output.css" rel="stylesheet">
     <!--flowbite-->
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
-<body class="py-8">
+<body class="py-12">
     
 <!--NAVBAR-->
-<nav class="fixed top-0 z-20 w-full bg-white border-b border-gray-200 start-0">
+<nav class="fixed top-0 z-20 w-full bg-white start-0">
   <div class="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto">
   <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
       <img src="../asset/dashboard/freecompress-logonavbar_1_.webp" class="h-12" alt="Flowbite Logo">
@@ -55,7 +57,7 @@
 </nav>
 
 <!--hero section-->
-<section id="beranda" class="bg-gray-200 py-28">
+<section id="beranda" class="py-28">
   <div 
     class="items-center justify-between max-w-screen-xl mx-auto overflow-hidden text-gray-600 md:grid md:grid-cols-2 md:gap-4 gap-x-8 md:px-8"
   >
@@ -102,7 +104,7 @@
       />
     </div>
   </div>
-  <div class="px-4 mt-14 md:px-8">
+  <div class="px-4 mt-10 md:px-8">
     <p class="mb-4 text-sm font-semibold text-center text-gray-700 font-inter">
       Dukungan Terbaik
     </p>
@@ -161,27 +163,94 @@
         />
       </svg>
     </div>
-    <p><span class="text-gray-100">5.0</span> by over +200 users</p>
+    <p><span class="text-gray-300">5.0</span> by over +200 users</p>
   </div>
+</div>
+
+<!-- Shape Divider -->
+<div class="mt-14 custom-shape-divider-top-1731220408">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" fill="#B45309" class="shape-fill"></path>
+  </svg>
 </div>
 
   </div>
 </section>
 
 <!-- Tentang kami -->
-<section id="tentang" class="py-16 bg-white">
+<section id="tentang" class="py-12 bg-white">
   <div class="flex flex-col items-center max-w-screen-xl gap-16 px-4 py-8 mx-auto lg:flex-row lg:py-16 lg:px-11">
       <div class="flex-1 order-1 font-light text-gray-500 lg:order-2 sm:text-lg">
-          <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-orange-900">Selamat Datang</h2>
+          <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-orange-900 font-poppins">Selamat Datang</h2>
           <p class="mb-4 sm:text-base">Teguhaqiqah adalah layanan aqiqah, catering, dan qurban yang mulai beroperasi sejak 2020 dan siap melayani 24 jam. Mereka menawarkan paket aqiqah hemat untuk berbagai keperluan, nasi box, catering dengan pilihan dari paket ekonomis hingga premium hingga paket qurban untuk idul adha.</p>
       </div>
-      <div class="grid flex-1 order-2 grid-cols-2 gap-4 mt-8 lg:order-1">
+      <div class="grid flex-1 order-2 grid-cols-2 gap-4 mt-4 lg:order-1">
           <img class="w-full rounded-lg" src="../asset/dashboard/pict 3D/Designer (6).webp" alt="office content 1">
           <img class="w-full mt-4 rounded-lg lg:mt-10" src="../asset/dashboard/pict 3D/Designer (5).webp" alt="office content 2">
       </div>
   </div>
 </section>
 
+<!--feature section-->
+<div class="flex flex-col lg:flex-row lg:gap-8">
+  <div class="flex flex-col col-span-12 gap-4 lg:col-span-4">
+      <span class="text-base font-bold leading-tight text-center text-orange-800 lg:text-start sm:text-2xl">
+          LAYANAN
+      </span>
+      <h1 class="text-2xl font-bold leading-tight text-center sm:text-3xl text-grey lg:text-start">
+          Kategori nilai teratas untuk Anda
+      </h1>
+  </div>
+
+  <!-- Cards Container -->
+  <div class="flex flex-col justify-center col-span-12 gap-8 mt-8 lg:col-span-8 sm:flex-row sm:auto lg:mt-0 sm:mt-16">
+      
+      <!-- Card 1: Kualitas -->
+      <div class="service-card flex justify-start gap-8 flex-col items-center w-full sm:w-[275px] lg:h-[200px] rounded-[32px] border lg:p-10 p-4 bg-white">
+          <div class="mt-1">
+              <i class="fas fa-check-circle" style="font-size: 90px; color: #B45309;"></i>
+          </div>
+          <div class="flex flex-col gap-8">
+              <h2 class="text-sm font-bold text-center text-grey">
+                  Kualitas dan Keamanan Produk
+              </h2>
+              <p class="text-xs leading-relaxed text-center opacity-50 font-inter text-grey">
+                  Kami menjamin bahan makanan aqiqah berkualitas tinggi dan aman, sesuai syariat dan sunnah untuk kehalalan dan kualitas terbaik.
+              </p>
+          </div>
+      </div>
+
+      <!-- Card 2: Paket -->
+      <div class="service-card flex justify-start gap-8 flex-col items-center w-full sm:w-[275px] lg:h-[200px] rounded-[32px] border lg:p-10 p-4 bg-white">
+          <div class="mt-1">
+              <i class="fas fa-box" style="font-size: 90px; color: #B45309;"></i>
+          </div>
+          <div class="flex flex-col gap-8">
+              <h2 class="text-sm font-bold text-center text-grey">
+                  Paket Lengkap dan Dokumentasi
+              </h2>
+              <p class="text-xs leading-relaxed text-center opacity-50 font-inter text-grey">
+                  Nikmati berbagai pilihan paket Teguh aqiqah, catering dan qurban beserta Dokumentasi pelaksanaan penyembelihan hewan aqiqah putra/putri Anda.
+              </p>
+          </div>
+      </div>
+
+      <!-- Card 3: Layanan -->
+      <div class="service-card flex justify-start gap-8 flex-col items-center w-full sm:w-[275px] lg:h-[200px] rounded-[32px] border lg:p-10 p-4 bg-white">
+          <div class="mt-1">
+              <i class="fas fa-users" style="font-size: 90px; color: #B45309;"></i>
+          </div>
+          <div class="flex flex-col gap-8">
+              <h2 class="text-sm font-bold text-center text-grey">
+                  Layanan Ramah dan Profesional
+              </h2>
+              <p class="text-xs leading-relaxed text-center opacity-50 font-inter text-grey">
+                  Tim kami siap membantu Anda dengan layanan yang profesional, menjadikan pengalaman Anda tak terlupakan.
+              </p>
+          </div>
+      </div>
+  </div>
+</div>
 
 
     <!--flowbite-->

@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "inter": ['inter'] 
+        "inter": ['inter'],
+        "poppins": ['Poppins'] 
        },
       colors : {
       "grey" : '#222831',
